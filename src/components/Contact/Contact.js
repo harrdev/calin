@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="container">
             <div className="row">
                 <div className="col align-self-center">
-                    <h1 className="text-center">Email - JavaScript Contact Form</h1>
+                    <h1 className="text-center">Contact me!</h1>
                     {/* <!-- contact form --> */}
                     <form ref={form} onSubmit={handleOnSubmit}>
                         {/* <!-- name --> */}
@@ -81,6 +81,7 @@ const Contact = () => {
                             <label for="email_body">Message</label>
                             <textarea
                                 className="form-control"
+                                name="email_body"
                                 id="email_body"
                                 rows="5"
                             ></textarea>
