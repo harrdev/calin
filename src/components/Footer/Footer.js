@@ -1,6 +1,6 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-
+import { AiFillInstagram, AiFillFacebook, AiFillYoutube } from 'react-icons/ai';
+import { BsSpotify } from 'react-icons/bs'
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
@@ -10,28 +10,31 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkItem href="tel:480-434-8386">480-434-8386</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
-            contact@jsmastery.com
+          <LinkItem href="mailto:calin@gmail.com">
+            calin@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>Providing entertainment to the world</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://google.com">
-            <AiFillGithub size="3rem" />
+            <AiFillYoutube size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://google.com">
-            <AiFillLinkedin size="3rem" />
+            <AiFillFacebook size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://google.com">
             <AiFillInstagram size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="#">
+            <BsSpotify size="2.5rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

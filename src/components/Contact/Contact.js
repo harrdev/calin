@@ -58,7 +58,7 @@ const Contact = () => {
                     name='subject'
                     placeholder='Subject'
                     required
-                    icon='user circle'
+                    icon='file alternate outline'
                     iconPosition='left'
                 />
                 <Form.Field

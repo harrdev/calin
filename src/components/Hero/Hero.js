@@ -9,7 +9,7 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Welcome to <br />
-        Wailin' Calin's House of Guitars
+        Wailin' Calin's House of Tone
       </SectionTitle>
     </LeftSection>
   </Section>
