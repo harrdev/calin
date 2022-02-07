@@ -1,6 +1,5 @@
 import emailjs from 'emailjs-com';
 import React from 'react';
-import { useRef } from 'react';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import { ContactWrapper } from './ContactStyles.js';
 import Swal from 'sweetalert2';
@@ -10,90 +9,69 @@ const TEMPLATE_ID = "template_uz2u94a";
 const USER_ID = "user_hjcKh9hxJ8zOi0J4khd4e";
 
 const Contact = () => {
-    const form = useRef();
-
     const handleOnSubmit = (e) => {
-        console.log("Form data: ", form.current)
         e.preventDefault();
-        emailjs
-            .sendForm(
-                SERVICE_ID,
-                TEMPLATE_ID,
-                form.current,
-                USER_ID
-            )
-            .then(
-                (result) => {
-                    console.log(result.text);
-                    alert("SUCCESS!");
-                },
-                (error) => {
-                    console.log(error.text);
-                    alert("FAILED...", error);
-                }
-            );
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+            .then((result) => {
+                console.log(result.text);
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Message Sent Successfully'
+                })
+            }, (error) => {
+                console.log(error.text);
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Ooops, something went wrong',
+                    text: error.text,
+                })
+            });
         e.target.reset()
     };
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col align-self-center">
-                    <h1 className="text-center">Contact me!</h1>
-                    {/* <!-- contact form --> */}
-                    <form ref={form} onSubmit={handleOnSubmit}>
-                        {/* <!-- name --> */}
-                        <div className="form-group">
-                            <label for="name">Name</label>
-                            <input
-                                type="name"
-                                name="name"
-                                className="form-control"
-                                id="name"
-                                placeholder="enter your name"
-                            />
-                        </div>
-
-                        {/* <!-- email --> */}
-                        <div className="form-group">
-                            <label for="email">Email address</label>
-                            <input
-                                type="email"
-                                name="email"
-                                className="form-control"
-                                id="email"
-                                placeholder="enter your email"
-                            />
-                        </div>
-
-                        {/* <!-- subject --> */}
-                        <div className="form-group">
-                            <label for="subject">Subject</label>
-                            <input
-                                type="text"
-                                name="subject"
-                                className="form-control"
-                                id="subject"
-                                placeholder="enter email subject"
-                            />
-                        </div>
-
-                        <div className="form-group">
-                            <label for="email_body">Message</label>
-                            <textarea
-                                className="form-control"
-                                name="email_body"
-                                id="email_body"
-                                rows="5"
-                            ></textarea>
-                        </div>
-
-                        <button type="submit" className="btn btn-primary">
-                            Submit
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
+        <div className="Contact">
+            <Form onSubmit={handleOnSubmit}>
+                <Form.Field
+                    id='form-input-control-email'
+                    control={Input}
+                    label='Email'
+                    name='email'
+                    placeholder='Email…'
+                    required
+                    icon='mail'
+                    iconPosition='left'
+                />
+                <Form.Field
+                    id='form-input-control-last-name'
+                    control={Input}
+                    label='Name'
+                    name='name'
+                    placeholder='Name…'
+                    required
+                    icon='user circle'
+                    iconPosition='left'
+                />
+                <Form.Field
+                    id='form-input-control-subject'
+                    control={Input}
+                    label='Subject'
+                    name='subject'
+                    placeholder='Subject'
+                    required
+                    icon='user circle'
+                    iconPosition='left'
+                />
+                <Form.Field
+                    id='form-textarea-control-opinion'
+                    control={TextArea}
+                    label='Message'
+                    name='email_body'
+                    placeholder='Message…'
+                    required
+                />
+                <Button type='submit' color='green'>Submit</Button>
+            </Form>
+        </div >
     );
 }
 export default Contact;
