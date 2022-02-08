@@ -1,9 +1,9 @@
 import emailjs from 'emailjs-com';
 import React from 'react';
+import { useEffect } from 'react';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import { ContactWrapper } from './ContactStyles.js';
 import Swal from 'sweetalert2';
-
 const SERVICE_ID = "service_sqhl10c";
 const TEMPLATE_ID = "template_uz2u94a";
 const USER_ID = "user_hjcKh9hxJ8zOi0J4khd4e";
