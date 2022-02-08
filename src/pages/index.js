@@ -1,8 +1,8 @@
 import Acomplishments from '../components/Acomplishments/Acomplishments';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
-import Projects from '../components/Projects/Projects';
-import Technologies from '../components/Technologies/Technologies';
+import Videos from '../components/Videos/Videos';
+import Skills from '../components/Skills/Skills';
 import Timeline from '../components/TimeLine/TimeLine';
 import Contact from '../components/Contact/Contact';
 import { Layout } from '../layout/Layout';
@@ -15,8 +15,8 @@ const Home = () => {
         <Hero />
         <BgAnimation />
       </Section>
-      <Projects />
-      <Technologies />
+      <Videos />
+      <Skills />
       <Timeline />
       <Acomplishments />
       <Contact />
