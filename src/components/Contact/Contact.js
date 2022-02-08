@@ -32,6 +32,7 @@ const Contact = () => {
         <div className="Contact">
             <Form onSubmit={handleOnSubmit}>
                 <Form.Field
+                    type="email"
                     id='form-input-control-email'
                     control={Input}
                     label='Email'
