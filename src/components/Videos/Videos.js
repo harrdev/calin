@@ -1,29 +1,16 @@
 import React from 'react';
-
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './VideosStyles';
+import { GridContainer } from './VideosStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { videos } from '../../constants/constants';
 
 const Videos = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Videos</SectionTitle>
     <GridContainer>
-      {videos.map((p, i) => {
-        return (
-          <BlogCard key={i}>
-          <Img src={p.image} />
-            <TitleContent>
-              <HeaderThree title>{p.title}</HeaderThree>
-              <Hr />
-            </TitleContent>
-            <CardInfo className="card-info">{p.description}</CardInfo>
-            <UtilityList>
-              <ExternalLinks href={p.visit}>Link</ExternalLinks>
-            </UtilityList>
-          </BlogCard>
-        );
-      })}
+      <iframe width="360" height="215" src="https://www.youtube.com/embed/0FMfsT11pdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullsreen"></iframe>
+      <iframe width="360" height="215" src="https://www.youtube.com/embed/76m2kmsAxhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+      <iframe width="360" height="215" src="https://www.youtube.com/embed/2f1Ny74_ou0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+      <iframe width="360" height="215" src="https://www.youtube.com/embed/aM443dNIxGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
     </GridContainer>
   </Section>
 );
