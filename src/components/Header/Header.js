@@ -31,6 +31,11 @@ const Header = () => (
           <NavLink>About</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="#contact">
+          <NavLink>Contact</NavLink>
+        </Link>
+      </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://google.com">

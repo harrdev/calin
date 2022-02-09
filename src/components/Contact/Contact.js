@@ -30,7 +30,7 @@ const Contact = () => {
     };
     return (
         <div className="Contact">
-            <Section>
+            <Section id="contact">
                 <SectionTitle>
                     Leave me a message!
                 </SectionTitle>
