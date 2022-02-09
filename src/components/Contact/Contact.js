@@ -1,8 +1,8 @@
 import emailjs from 'emailjs-com';
 import React from 'react';
-import { useEffect } from 'react';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import { ContactWrapper } from './ContactStyles.js';
+import { SectionTitle, Section } from '../../styles/GlobalComponents/index.js';
 import Swal from 'sweetalert2';
 const SERVICE_ID = "service_sqhl10c";
 const TEMPLATE_ID = "template_uz2u94a";
@@ -30,48 +30,55 @@ const Contact = () => {
     };
     return (
         <div className="Contact">
-            <Form onSubmit={handleOnSubmit}>
-                <Form.Field
-                    type="email"
-                    id='form-input-control-email'
-                    control={Input}
-                    label='Email'
-                    name='email'
-                    placeholder='Email…'
-                    required
-                    icon='mail'
-                    iconPosition='left'
-                />
-                <Form.Field
-                    id='form-input-control-last-name'
-                    control={Input}
-                    label='Name'
-                    name='name'
-                    placeholder='Name…'
-                    required
-                    icon='user circle'
-                    iconPosition='left'
-                />
-                <Form.Field
-                    id='form-input-control-subject'
-                    control={Input}
-                    label='Subject'
-                    name='subject'
-                    placeholder='Subject'
-                    required
-                    icon='file alternate outline'
-                    iconPosition='left'
-                />
-                <Form.Field
-                    id='form-textarea-control-opinion'
-                    control={TextArea}
-                    label='Message'
-                    name='email_body'
-                    placeholder='Message…'
-                    required
-                />
-                <Button type='submit' color='green'>Submit</Button>
-            </Form>
+            <Section>
+                <SectionTitle>
+                    Leave me a message!
+                </SectionTitle>
+            </Section>
+            <ContactWrapper>
+                <Form onSubmit={handleOnSubmit}>
+                    <Form.Field
+                        type="email"
+                        id='form-input-control-email'
+                        control={Input}
+                        label='Email'
+                        name='email'
+                        placeholder='Email…'
+                        required
+                        icon='mail'
+                        iconPosition='left'
+                    />
+                    <Form.Field
+                        id='form-input-control-last-name'
+                        control={Input}
+                        label='Name'
+                        name='name'
+                        placeholder='Name…'
+                        required
+                        icon='user circle'
+                        iconPosition='left'
+                    />
+                    <Form.Field
+                        id='form-input-control-subject'
+                        control={Input}
+                        label='Subject'
+                        name='subject'
+                        placeholder='Subject'
+                        required
+                        icon='file alternate outline'
+                        iconPosition='left'
+                    />
+                    <Form.Field
+                        id='form-textarea-control-opinion'
+                        control={TextArea}
+                        label='Message'
+                        name='email_body'
+                        placeholder='Message…'
+                        required
+                    />
+                    <Button type='submit' color='green'>Submit</Button>
+                </Form>
+            </ContactWrapper>
         </div >
     );
 }
