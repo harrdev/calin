@@ -10,7 +10,7 @@ const Hero = (props) => (
         Welcome to <br />
         Wailin' Calin's House of Tone
       </SectionTitle>
-      <a href="https://www.youtube.com">
+      <a href="https://www.youtube.com" target="_blank">
         <Button>Visit my Youtube page</Button>
       </a>
     </LeftSection>
