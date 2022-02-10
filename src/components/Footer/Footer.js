@@ -24,16 +24,16 @@ const Footer = () => {
           <Slogan>Turn it up to 11</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://youtube.com/channel/UCXSYyNAg_rwlpg1UVC0Fk0Q">
+          <SocialIcons href="https://youtube.com/channel/UCXSYyNAg_rwlpg1UVC0Fk0Q" target="_blank">
             <AiFillYoutube size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.facebook.com/wailincalin">
+          <SocialIcons href="https://www.facebook.com/wailincalin" target="_blank">
             <AiFillFacebook size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://instagram.com/wailincalin/">
+          <SocialIcons href="https://instagram.com/wailincalin/" target="_blank">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://open.spotify.com/artist/4rLjkwIFvXacegrunlfUly">
+          <SocialIcons href="https://open.spotify.com/artist/4rLjkwIFvXacegrunlfUly" target="_blank">
             <BsSpotify size="2.5rem" />
           </SocialIcons>
         </SocialContainer>

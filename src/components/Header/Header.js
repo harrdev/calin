@@ -2,7 +2,6 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillInstagram, AiFillFacebook, AiFillYoutube } from 'react-icons/ai';
 import { BsSpotify } from 'react-icons/bs'
-import { DiCssdeck } from 'react-icons/di';
 import { FcMusic } from 'react-icons/fc'
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
