@@ -14,26 +14,26 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:calin@gmail.com">
-            calin@gmail.com
+          <LinkItem href="mailto:wailincalin@yahoo.com">
+            wailincalin@yahoo.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Providing entertainment to the world</Slogan>
+          <Slogan>Turn it up to 11</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://youtube.com/channel/UCXSYyNAg_rwlpg1UVC0Fk0Q">
             <AiFillYoutube size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.facebook.com/wailincalin">
             <AiFillFacebook size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://instagram.com/wailincalin/">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
-          <SocialIcons href="#">
+          <SocialIcons href="https://open.spotify.com/artist/4rLjkwIFvXacegrunlfUly">
             <BsSpotify size="2.5rem" />
           </SocialIcons>
         </SocialContainer>

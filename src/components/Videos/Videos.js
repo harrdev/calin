@@ -7,10 +7,10 @@ const Videos = () => (
     <SectionDivider />
     <SectionTitle main>Videos</SectionTitle>
     <GridContainer>
-      <iframe width="360" height="215" src="https://www.youtube.com/embed/0FMfsT11pdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullsreen"></iframe>
-      <iframe width="360" height="215" src="https://www.youtube.com/embed/76m2kmsAxhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
-      <iframe width="360" height="215" src="https://www.youtube.com/embed/2f1Ny74_ou0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
-      <iframe width="360" height="215" src="https://www.youtube.com/embed/aM443dNIxGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+      <iframe width="360" height="215" src="https://www.youtube.com/embed/RKTeBlaxqIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+      <iframe width="360" height="215" src="https://www.youtube.com/embed/hNwJzFN1dq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+      <iframe width="360" height="215" src="https://www.youtube.com/embed/TbtVXTnbqrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+      <iframe width="360" height="215" src="https://www.youtube.com/embed/CnwzF5i4P20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
     </GridContainer>
   </Section>
 );

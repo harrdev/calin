@@ -1,7 +1,7 @@
 import Acomplishments from '../components/Acomplishments/Acomplishments';
 import Hero from '../components/Hero/Hero';
 import Videos from '../components/Videos/Videos';
-import Skills from '../components/Skills/Skills';
+import Bands from '../components/Bands/Bands';
 import Timeline from '../components/TimeLine/TimeLine';
 import Contact from '../components/Contact/Contact';
 import { Layout } from '../layout/Layout';
@@ -14,7 +14,7 @@ const Home = () => {
         <Hero />
       </Section>
       <Videos />
-      <Skills />
+      <Bands />
       <Timeline />
       <Acomplishments />
       <Contact />

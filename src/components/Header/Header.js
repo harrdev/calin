@@ -22,8 +22,8 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#tech">
-          <NavLink>Skills</NavLink>
+        <Link href="#bands">
+          <NavLink>Bands</NavLink>
         </Link>
       </li>
       <li>
@@ -38,16 +38,16 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://google.com">
+      <SocialIcons href="https://youtube.com/channel/UCXSYyNAg_rwlpg1UVC0Fk0Q">
         <AiFillYoutube size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
+      <SocialIcons href="https://www.facebook.com/wailincalin">
         <AiFillFacebook size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
+      <SocialIcons href="https://instagram.com/wailincalin/">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
-      <SocialIcons href="#">
+      <SocialIcons href="https://open.spotify.com/artist/4rLjkwIFvXacegrunlfUly">
         <BsSpotify size="2.5rem" />
       </SocialIcons>
     </Div3>

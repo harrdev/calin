@@ -8,9 +8,9 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Welcome to <br />
-        Wailin' Calin's House of Tone
+        Wailin' Calin's Page
       </SectionTitle>
-      <a href="https://www.youtube.com" target="_blank">
+      <a href="https://youtube.com/channel/UCXSYyNAg_rwlpg1UVC0Fk0Q" target="_blank">
         <Button>Visit my Youtube page</Button>
       </a>
     </LeftSection>

@@ -32,7 +32,7 @@ const Contact = () => {
         <div className="Contact">
             <Section id="contact">
                 <SectionTitle>
-                    Leave me a message!
+                    For bookings, business inquiries, or gig dates
                 </SectionTitle>
             </Section>
             <ContactWrapper>
