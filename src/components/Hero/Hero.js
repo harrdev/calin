@@ -11,7 +11,7 @@ const Hero = (props) => (
         Hi, I'm Calin <br />
         Wailin' Calin
       </SectionTitle>
-      <Image src="/images/calin.jpg" alt="Calin" width="200px" height="300px"></Image>
+      {/* <Image src="/images/calin.jpg" alt="Calin" width="200px" height="275px"></Image> */}
       <a href="https://youtube.com/channel/UCXSYyNAg_rwlpg1UVC0Fk0Q" target="_blank">
         <Button>Visit my YouTube page</Button>
       </a>
