@@ -1,4 +1,4 @@
-import Acomplishments from '../components/Acomplishments/Acomplishments';
+import Hire from '../components/Hire/Hire';
 import Hero from '../components/Hero/Hero';
 import Videos from '../components/Videos/Videos';
 import Bands from '../components/Bands/Bands';
@@ -16,7 +16,7 @@ const Home = () => {
       <Videos />
       <Bands />
       <Timeline />
-      <Acomplishments />
+      <Hire />
       <Contact />
     </Layout>
   );

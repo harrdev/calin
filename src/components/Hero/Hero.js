@@ -1,17 +1,17 @@
 import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, RightSection } from './HeroStyles';
 
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome to <br />
-        Wailin' Calin's Page
+        Hi, I'm Calin <br />
+        Wailin' Calin
       </SectionTitle>
       <a href="https://youtube.com/channel/UCXSYyNAg_rwlpg1UVC0Fk0Q" target="_blank">
-        <Button>Visit my Youtube page</Button>
+        <Button>Visit my YouTube page</Button>
       </a>
     </LeftSection>
   </Section>

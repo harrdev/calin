@@ -8,8 +8,6 @@ const Bands = () =>  (
   <Section id="bands">
     <SectionDivider divider />
     <SectionTitle>Bands</SectionTitle>
-    <SectionText>
-    </SectionText>
     <List>
       <ListItem>
         <picture>
