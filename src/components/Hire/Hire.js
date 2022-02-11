@@ -3,9 +3,10 @@ import { Section, SectionDivider, SectionTitle, SectionText } from '../../styles
 import { Box, Boxes, BoxNum, BoxText } from './HireStyles';
 
 const data = [
-  { service: "Fill in guitarist for gigs", text: 'Lead, Rhythm, Lap Guitar'},
-  { service: "Guitar lessons", text: '', },
-  { service: "Studio Rental", text: 'In house studio complete with recording gear and drum kit'}
+  { service: "Gig stand-in"},
+  { service: "Guitar lessons"},
+  { service: "Studio Rental"},
+  { service: "Session Guitarist"}
 ];
 
 const Hire = () => (
@@ -19,7 +20,6 @@ const Hire = () => (
       {data.map((card, index) => (
         <Box key={index}>
           <BoxNum>{`${card.service}`}</BoxNum>
-          <BoxText>{card.text}</BoxText>
         </Box>
       ))}
     </Boxes>
