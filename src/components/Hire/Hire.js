@@ -10,6 +10,7 @@ const data = [
 
 const Hire = () => (
   <Section id="hire">
+    <br />
     <SectionTitle>Hire Me</SectionTitle>
     <SectionText>
     Services offered - Contact me using form below

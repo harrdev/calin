@@ -15,7 +15,6 @@ const Home = () => {
       </Section>
       <Videos />
       <Bands />
-      <Timeline />
       <Hire />
       <Contact />
     </Layout>
