@@ -51,18 +51,18 @@ export const BoxNum = styled.h5`
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 2.5em;
   letter-spacing: 0.01em;
   color: #FFFFFF;
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 25px;
+    line-height: 45px;
   }
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 24px;
-    line-height: 26px;
+    line-height: 85px;
 }
 `
 

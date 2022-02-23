@@ -2,7 +2,7 @@ import emailjs from 'emailjs-com';
 import React from 'react';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import { ContactWrapper } from './ContactStyles.js';
-import { SectionTitle, Section } from '../../styles/GlobalComponents/index.js';
+import { SectionTitle, Section, SectionText } from '../../styles/GlobalComponents/index.js';
 import Swal from 'sweetalert2';
 const SERVICE_ID = "service_sqhl10c";
 const TEMPLATE_ID = "template_uz2u94a";
@@ -32,8 +32,9 @@ const Contact = () => {
         <div className="Contact">
             <Section id="contact">
                 <SectionTitle>
-                    For bookings, business inquiries, or gig dates
+                    Contact
                 </SectionTitle>
+                <SectionText>For bookings, business inquiries, or gig dates</SectionText>
             </Section>
             <ContactWrapper>
                 <Form onSubmit={handleOnSubmit}>
