@@ -16,7 +16,8 @@ const Bands = () =>  (
         <ListContainer>
           <ListTitle>Tick Tick Boom</ListTitle>
           <ListParagraph>
-            <a href="https://www.facebook.com/TickTickBoomAZ" target="_blank">Facebook</a>
+            <a href="https://www.facebook.com/TickTickBoomAZ" target="_blank">Facebook</a><br />
+            <a href="https://www.instagram.com/ticktickboomaz/" target="_blank">Instagram</a>
           </ListParagraph>
         </ListContainer>
       </ListItem>
